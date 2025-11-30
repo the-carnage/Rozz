@@ -1,11 +1,31 @@
-// Change this to your computer's local IP address
-// To find your IP:
-// - Mac: System Settings > Network > Your connection > Details
-// - Windows: Run 'ipconfig' in cmd, look for IPv4 Address
-// - The backend server must be running on port 3000
+/*
+ * ============================================
+ *  ROZZ DIARY APP - CONFIGURATION FILE
+ * ============================================
+ * 
+ * This file contains the settings for the app.
+ * The most important setting is the API_URL which tells
+ * the app where to find the backend server.
+ * 
+ * HOW TO UPDATE THE BACKEND URL:
+ * --------------------------------
+ * Simply change the URL below to match where your backend is hosted.
+ * 
+ * Examples:
+ * - Hosted backend: 'https://your-backend.com'
+ * - Local backend: 'http://localhost:3000'
+ * - iOS Simulator: 'http://localhost:3000'
+ * - Android Emulator: 'http://10.0.2.2:3000'
+ * - Physical device: 'http://YOUR_COMPUTER_IP:3000'
+ * 
+ * IMPORTANT: Make sure there's no slash (/) at the end of the URL
+ */
 
-export const API_URL = 'http://192.168.1.100:3000';
+// The backend server URL - Configured for your local network
+// This allows your phone to connect to your computer
+export const API_URL = 'http://192.168.129.44:3000';
 
-// For iOS Simulator, you can use: http://localhost:3000
-// For Android Emulator, you can use: http://10.0.2.2:3000
-// For physical device, use your computer's IP address
+/*
+ * That's it! This is the only configuration you need.
+ * The screens will automatically use this URL to connect to the backend.
+ */
