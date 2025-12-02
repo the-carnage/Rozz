@@ -23,7 +23,7 @@
 
 // The backend server URL - Configured for your local network
 // This allows your phone to connect to your computer
-export const API_URL = 'http://192.168.129.44:3000';
+export const API_URL = 'http://localhost:3000';
 
 /*
  * That's it! This is the only configuration you need.
